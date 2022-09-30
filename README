@@ -1,0 +1,9 @@
+Hi folks,
+
+This is an advanced lottery smart contract created using hardhat.
+
+This uses chainlink VRF to get a verifiably random number and from that, get a random winner for our lottery.
+
+This also uses chainlink Keepers to automate picking a winner in regular time intervals, whenever the lottery is open and a winner is picked, next round of lottery automatically begins.
+
+This has a deploy script to actually deploy and test the contract on a testnet or your local hardhat network.

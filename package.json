@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "ethereum-waffle": "^3.2.0",
+    "hardhat": "^2.10.2",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "hardhat-deploy": "^0.11.12",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13"
+  }
+}
